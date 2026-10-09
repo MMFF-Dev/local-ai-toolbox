@@ -18,7 +18,7 @@ CUSTOM_CSS = """
 
 
 def build_ui() -> gr.Blocks:
-    with gr.Blocks(css=CUSTOM_CSS, title="Local AI Toolbox", theme=gr.themes.Soft()) as demo:
+    with gr.Blocks(title="Local AI Toolbox") as demo:
         gr.HTML(
             """
             <div id="header">
@@ -96,4 +96,10 @@ def build_ui() -> gr.Blocks:
 
 if __name__ == "__main__":
     demo = build_ui()
-    demo.launch(server_name="127.0.0.1", server_port=7860, inbrowser=True)
+    demo.launch(
+        server_name="127.0.0.1",
+        server_port=7860,
+        inbrowser=True,
+        css=CUSTOM_CSS,
+        theme=gr.themes.Soft(),
+    )
