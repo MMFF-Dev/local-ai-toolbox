@@ -49,10 +49,17 @@ chmod +x run.sh
 
 ## 📸 界面预览
 
-<!-- 截图占位：实际发布后替换为真实截图 -->
-<!-- ![界面截图](docs/screenshot.png) -->
+**🎙️ 音频转文字**
 
-> 截图即将上线。运行后你会看到三个 Tab：音频转文字 / 图片去背景 / 文字转语音。
+![音频转文字](docs/screenshot-transcribe.png)
+
+**🖼️ 图片去背景**
+
+![图片去背景](docs/screenshot-remove-bg.png)
+
+**🔊 文字转语音**
+
+![文字转语音](docs/screenshot-tts.png)
 
 ## 🧱 技术栈
 
