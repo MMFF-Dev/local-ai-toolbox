@@ -1,0 +1,15 @@
+# Local AI Toolbox - 依赖清单
+# Web UI
+gradio==4.44.1
+
+# 音频转文字（ faster-whisper 比 openai-whisper 快 4 倍，显存占用更小）
+faster-whisper==1.0.3
+
+# 图片去背景
+rembg==2.0.59
+
+# 文字转语音（edge-tts 免费、音质好，使用微软 Edge 在线神经语音）
+edge-tts==6.1.12
+
+# 图片处理
+Pillow==10.4.0
