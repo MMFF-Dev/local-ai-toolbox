@@ -1,6 +1,6 @@
 # Local AI Toolbox - 依赖清单
 # Web UI
-gradio==4.44.1
+gradio>=6.0
 
 # 音频转文字（ faster-whisper 比 openai-whisper 快 4 倍，显存占用更小）
 faster-whisper==1.0.3
